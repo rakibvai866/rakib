@@ -1,0 +1,22 @@
+First Js Add This File
+<script src="js/mixitup.js"></script>
+
+Html Add
+
+<button data-filter="all">All</button>
+<button data-filter=".green">Green</button>
+<button data-filter=".blue">Blue</button>
+<button data-filter=".pink">Pink</button>
+<button data-filter="none">None</button>
+
+<div class="main-project">
+<div class="mix green"></div>
+<div class="mix blue"></div>
+<div class="mix pink"></div>
+</div>
+
+Now Add This js In custom css
+
+var containerEl = document.querySelector('.main-project');
+
+            var mixer = mixitup(containerEl);
